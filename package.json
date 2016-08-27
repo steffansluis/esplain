@@ -1,0 +1,18 @@
+{
+  "name": "esplain",
+  "version": "1.0.0",
+  "description": "Plain Elasticsearch explanations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elasticsearch",
+    "explain",
+    "explanation",
+    "format",
+    "parse"
+  ],
+  "author": "Steffan Sluis",
+  "license": "ISC"
+}
