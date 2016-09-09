@@ -1,0 +1,66 @@
+{
+  "value": 2.7047482,
+  "description": "sum of:",
+  "details": [
+    {
+      "value": 2.7047482,
+      "description": "weight(name:hello in 1) [PerFieldSimilarity], result of:",
+      "details": [
+        {
+          "value": 2.7047482,
+          "description": "fieldWeight in 1, product of:",
+          "details": [
+            {
+              "value": 1,
+              "description": "tf(freq=1.0), with freq of:",
+              "details": [
+                {
+                  "value": 1,
+                  "description": "termFreq=1.0",
+                  "details": []
+                }
+              ]
+            },
+            {
+              "value": 2.7047482,
+              "description": "idf(docFreq=1, maxDocs=11)",
+              "details": []
+            },
+            {
+              "value": 1,
+              "description": "fieldNorm(doc=1)",
+              "details": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": 0,
+      "description": "match on required clause, product of:",
+      "details": [
+        {
+          "value": 0,
+          "description": "# clause",
+          "details": []
+        },
+        {
+          "value": 0.3697202,
+          "description": "#*:* -ConstantScore(type:view), product of:",
+          "details": [
+            {
+              "value": 1,
+              "description": "boost",
+              "details": []
+            },
+            {
+              "value": 0.3697202,
+              "description": "queryNorm",
+              "details": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
